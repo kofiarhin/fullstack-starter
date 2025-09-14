@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import "./app.styles.scss";
 import { BASE_URL } from "./constants/constants";
 
 const App = () => {
@@ -13,8 +14,8 @@ const App = () => {
     getData();
   }, []);
   return (
-    <div>
-      <h1 className="heading">FullStack Template</h1>
+    <div id="app">
+      <h1 className="heading center">FullStack Template</h1>
     </div>
   );
 };
